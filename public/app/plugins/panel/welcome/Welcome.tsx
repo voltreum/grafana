@@ -4,12 +4,12 @@ import { GrafanaTheme2 } from '@grafana/data';
 import { Trans } from '@grafana/i18n';
 import { useStyles2 } from '@grafana/ui';
 
-const helpOptions = [
-  { value: 0, label: 'Documentation', href: 'https://grafana.com/docs/grafana/latest' },
-  { value: 1, label: 'Tutorials', href: 'https://grafana.com/tutorials' },
-  { value: 2, label: 'Community', href: 'https://community.grafana.com' },
-  { value: 3, label: 'Public Slack', href: 'http://slack.grafana.com' },
-];
+// const helpOptions = [
+//   { value: 0, label: 'Documentation', href: 'https://grafana.com/docs/grafana/latest' },
+//   { value: 1, label: 'Tutorials', href: 'https://grafana.com/tutorials' },
+//   { value: 2, label: 'Community', href: 'https://community.grafana.com' },
+//   { value: 3, label: 'Public Slack', href: 'http://slack.grafana.com' },
+// ];
 
 export const WelcomeBanner = () => {
   const styles = useStyles2(getStyles);
@@ -17,13 +17,13 @@ export const WelcomeBanner = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        <Trans i18nKey="welcome.welcome-banner.welcome-to-grafana">Welcome to Grafana</Trans>
+        <Trans i18nKey="welcome.welcome-banner.welcome-to-grafana">Welcome to Voltreum</Trans>
       </h1>
       <div className={styles.help}>
         <h3 className={styles.helpText}>
           <Trans i18nKey="welcome.welcome-banner.need-help">Need help?</Trans>
         </h3>
-        <div className={styles.helpLinks}>
+        {/* <div className={styles.helpLinks}>
           {helpOptions.map((option, index) => {
             return (
               <a
@@ -35,7 +35,7 @@ export const WelcomeBanner = () => {
               </a>
             );
           })}
-        </div>
+        </div> */}
       </div>
     </div>
   );

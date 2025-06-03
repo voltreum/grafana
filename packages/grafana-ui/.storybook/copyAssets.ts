@@ -29,16 +29,16 @@ export function copyAssetsSync() {
       to: './static/public/fonts',
     },
     {
-      from: '../../../public/img/grafana_text_logo-dark.svg',
-      to: './static/public/img/grafana_text_logo-dark.svg',
+      from: '../../../public/img/logo.png',
+      to: './static/public/img/logo.png',
     },
     {
-      from: '../../../public/img/grafana_text_logo-light.svg',
-      to: './static/public/img/grafana_text_logo-light.svg',
+      from: '../../../public/img/logo.png',
+      to: './static/public/img/logo.png',
     },
     {
-      from: '../../../public/img/fav32.png',
-      to: './static/public/img/fav32.png',
+      from: '../../../public/img/logo.png',
+      to: './static/public/img/logo.png',
     },
     {
       from: '../../../public/lib',

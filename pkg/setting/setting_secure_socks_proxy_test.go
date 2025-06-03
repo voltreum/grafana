@@ -189,7 +189,7 @@ func createTestRootCAFile(t *testing.T, path string) string {
 		SerialNumber: big.NewInt(2019),
 		Subject: pkix.Name{
 			Organization: []string{"Grafana Labs"},
-			CommonName:   "Grafana",
+			CommonName:   "Voltreum",
 		},
 		NotBefore:             time.Now(),
 		NotAfter:              time.Now().AddDate(10, 0, 0),

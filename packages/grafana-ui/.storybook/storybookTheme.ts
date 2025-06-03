@@ -34,6 +34,6 @@ export const createStorybookTheme = (theme: GrafanaTheme2) => {
 
     brandTitle: 'Grafana UI',
     brandUrl: './',
-    brandImage: `public/img/grafana_text_logo-${theme.colors.mode}.svg`,
+    brandImage: `public/img/logo.png`,
   });
 };
